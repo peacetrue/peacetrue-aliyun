@@ -1,0 +1,12 @@
+description '阿里云文件存储服务'
+
+dependencies {
+    compile 'com.aliyun.oss:aliyun-sdk-oss:3.4.2'
+    implementation "org.springframework.boot:spring-boot-autoconfigure"
+    compileOnly "org.springframework.boot:spring-boot-configuration-processor"
+    annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
+
+    testCompile 'junit:junit'
+    testCompile 'org.springframework.boot:spring-boot-starter-test'
+    testCompile 'org.springframework.boot:spring-boot-starter-logging'
+}
